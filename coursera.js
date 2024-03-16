@@ -13,7 +13,7 @@ let interval = setInterval(() => {
                 clickableDiv.click();
                 console.log("nxt video");
             }
-        }, 4000);
+        }, 3000);
             
     }
     }, 4000)
