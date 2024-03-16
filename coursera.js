@@ -4,16 +4,16 @@ let interval = setInterval(() => {
         if (!(video.currentTime > video.duration - 3)) {
         video.play()
         console.log("inside video");
-    
             video.currentTime = video.duration - 3; // Skip to 5 seconds before the video ends.
         }
-        setTimeout(() => {
+        let clear_timeout = setTimeout(() => {
             const clickableDiv = document.querySelector('span.rc-TooltipWrapper.css-0 div.rc-ItemIcon.horizontal-box.css-0');
             if (clickableDiv) {
+                clearTimeout(clear_timeout);
                 clickableDiv.click();
                 console.log("nxt video");
             }
         }, 4000);
             
     }
-    }, 2000)
+    }, 4000)
