@@ -1,3 +1,32 @@
+/udemy code in console
+let interval = setInterval(() => {
+    if (document.querySelector('video')) {
+        const video = document.querySelector('video');
+        video.currentTime = video.duration;
+        if (document.getElementsByClassName('interstitial--inner--3w4YV').length) {
+            document.getElementById("go-to-next-item").click();
+        }
+	}
+	else{
+		document.querySelector('[data-purpose="go-to-next"]').click()
+	}
+    
+}, 1000);
+
+/skill soft in console
+let interval = setInterval(() => {
+    if (document.querySelector('video')) {
+        const video = document.querySelector('video');
+        video.currentTime = video.duration;
+        if (document.getElementById('nextTopicButton').length) {
+            document.getElementById('nextTopicButton').click();
+        };
+    };
+    
+}, 1000);
+
+
+
 
 let interval = setInterval(() => {
     if (document.querySelector('video')) {
@@ -28,32 +57,4 @@ let interval = setInterval(() => {
 }, 1000);
 
 
-
-
-/udemy code in console
-let interval = setInterval(() => {
-    if (document.querySelector('video')) {
-        const video = document.querySelector('video');
-        video.currentTime = video.duration;
-        if (document.getElementsByClassName('interstitial--inner--3w4YV').length) {
-            document.getElementById("go-to-next-item").click();
-        }
-	}
-	else{
-		document.querySelector('[data-purpose="go-to-next"]').click()
-	}
-    
-}, 1000);
-
-/skill soft in console
-let interval = setInterval(() => {
-    if (document.querySelector('video')) {
-        const video = document.querySelector('video');
-        video.currentTime = video.duration;
-        if (document.getElementById('nextTopicButton').length) {
-            document.getElementById('nextTopicButton').click();
-        };
-    };
-    
-}, 1000);
 
