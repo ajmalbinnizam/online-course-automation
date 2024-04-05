@@ -1,4 +1,4 @@
-/udemy code in console
+/ udemy video code || in your browser press f12 => Go to console paste the below code => Enter 
 let interval = setInterval(() => {
     if (document.querySelector('video')) {
         const video = document.querySelector('video');
