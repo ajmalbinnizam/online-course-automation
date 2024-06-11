@@ -3,7 +3,7 @@ let interval = setInterval(() => {
     if (document.querySelector('video')) {
         const video = document.querySelector('video');
         video.currentTime = video.duration;
-        if (document.getElementsByClassName('interstitial--inner--3w4YV').length) {
+        if (document.getElementsByClassName('interstitial--continue-button--yk0Zb').length) {
             document.getElementById("go-to-next-item").click();
         }
 	}
@@ -11,7 +11,7 @@ let interval = setInterval(() => {
 		document.querySelector('[data-purpose="go-to-next"]').click()
 	}
     
-}, 1000);
+}, 2000);
 
 /skill soft in console
 let interval = setInterval(() => {
